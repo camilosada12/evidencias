@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.cssx">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+
+                <form class="row g-2 needs-validation" novalidate onsubmit="return porcentaje();">
+                    <div class="col-md-5">
+                        <h5>Area Cuadrado</h5>
+                        <label for="txtCuadradoLado" class="form-label">Lado</label>
+                        <input type="number" class="form-control" id="txtCuadradoLado"  required>
+                        <div class="valid-feedback"> 
+                        </div>
+                    </div>
+                    <h5>Area Rectangulo</h5>
+                    <div class="col-md-4">
+                        <label for="txtRectanguloBase" class="form-label">Base</label>
+                        <input type="number" class="form-control" id="txtRectanguloBase"  required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtRectanguloAltura" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtRectanguloAltura"  required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                    <h5>Area Triangulo</h5>
+                    <div class="col-md-4">
+                        <label for="txtTrianguloBase" class="form-label">Base</label>
+                        <input type="number" class="form-control" id="txtTrianguloBase"  required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="txtTrianguloAltura" class="form-label">Altura</label>
+                        <input type="number" class="form-control" id="txtTrianguloAltura"  required>
+                        <div class="valid-feedback">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-info" type="submit">calcular</button>
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="respuesta col-4">
+                <div id="resultados"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/Area.js"></script>
+    <script src="js/javaScript.js"></script>
+</body>
+
+</html>

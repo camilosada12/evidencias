@@ -1,0 +1,61 @@
+/* Colores específicos para cada columna en diferentes tablas */
+.color-bingo-2 td.color-0 {
+    background-color: #ff6961;
+    color: #fff;
+}
+.color-bingo-3 td.color-1 {
+    background-color: #77dd77;
+    color: #fff;
+}
+.color-bingo-4 td.color-2 {
+    background-color: #b0c2f2;
+    color: #fff;
+}
+.color-bingo-5 td.color-3 {
+    background-color : #a788ab ;
+}
+.color-bingo-6 td.color-4 {
+    background-color: #f45572;
+    color: #fff;
+}
+
+/* Estilo para la X grande en el bingo 7 */
+.color-bingo-7 td.marked-x-large {
+    background-color: #84b6f4;
+    color: #fff;
+}
+/* estilos para las 3 x */
+.color-bingo-8 td.marked-x1 {
+    background-color : #ffcba4;
+    color: #fff;
+}
+.color-bingo-8 td.marked-x2 {
+    background-color: pink;
+    color: #fff;
+}
+.color-bingo-8 td.marked-x3 {
+    background-color: cyan;
+    color: #fff;
+}
+
+/* Estilos  para la tabla */
+.table th, .table td {
+    text-align: center;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.centro{
+    margin:  0 auto;
+}
+.colorTabla{
+   background-color: #84cdf4;
+}
+
+ 
+
+.colorAcordion{
+    background-color: #84cdf4;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.cssx">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+
+                <form class="row g-3 needs-validation" novalidate onsubmit="return saludar();">
+                    <div class="col-md-12">
+                        <label for="txtsaludo" class="form-label">Digita tu Nombre</label>
+                        <input type="text" class="form-control" id="txtsaludo"  required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-info" type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="respuesta col-4">
+                <div id="saludo"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/javaScript.js"></script>
+    <script src="js/saludo.js"></script>
+</body>
+
+</html>

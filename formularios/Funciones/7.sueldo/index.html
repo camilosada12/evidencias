@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="fontawesome/css/all.cssx">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-10 row forma">
+            <div class="formulario col-6">
+
+                <form class="row g-3 needs-validation" novalidate onsubmit="return operaciones();">
+                    <div class="col-md-6">
+                        <label for="txtNumeroUno" class="form-label">Dias trabajados</label>
+                        <input type="number" class="form-control" id="txtNumeroUno"  required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtNumeroDos" class="form-label">valor dia </label>
+                        <input type="number" class="form-control" id="txtNumeroDos"  required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-info" type="submit">calcular</button>
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="respuesta col-4">
+                <div id="resultados"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="js/operaciones.js"></script>
+    <script src="js/javaScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+h1{
+    font-size: 47px;
+    font-family: serif;
+}
+
+h3{
+    font-size: 20px;
+}
+.mover{
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+.configuracion{
+    font-size: 12px;
+    margin-left: 24px;
+}
+
+.Nombre{
+    font-size: 16px;
+    margin-left: 102px;
+}
+
+.Energia{
+    font-size: 14px;
+    margin-left: 25px;
+}
+.Atomico{
+    margin-left: 44px;
+}
+.Simbolo{
+    font-size: 16px;
+    margin-left: 44px;
+}
+
+.masa{
+    font-size: 16px;
+    margin-left: 55px;
+}
+.moverGrande{
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: serif;  
+}
+ .numero-Atomico{
+   font-size: 16px;
+   margin-left: 100px;
+   position: relative;
+   bottom:  150px;
+} 
+.Elemento{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.subir{
+    height: 4px;
+    /* padding: 2px; */
+}
+.total{
+    margin-top: 20px;
+}
+.fila{
+    float:left;
+    width: 2000px;
+    height: 90px;
+}
+
+.columna{
+    float:left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+span{
+    font-size: 9px;
+    left: 10px;
+    font-family: cursive;
+}
+
+h6{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+
+.grande{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 152px;
+}
+
+
+.grupo1{
+    background-color: #ecbc68;
+}
+.grupo2{
+    background-color: #8777ee;
+}
+.grupo3{
+    background-color: #87CEEB;
+}
+.grupo4{
+    background-color: #EE82EE;
+}
+.grupo5{
+    background-color: #7ae6b0;
+}
+.grupo6{
+    background-color: #f5d394;
+}
+.grupo7{
+    background-color: #deeb70;
+}
+.grupo8{
+    background-color: #9ef79e;
+}
+.grupo9{
+    background-color: #b5f38c;
+}
+
