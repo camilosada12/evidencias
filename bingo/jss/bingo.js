@@ -1,7 +1,7 @@
 
 /**
  * BINGO
- * Autor: Natalia osorio
+ * Autor: camilo andres losada 
  * Miercoles 8 de Mayo 2024
  */
 let bingo = [];
