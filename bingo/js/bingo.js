@@ -1,7 +1,7 @@
 /**
  * Ejercicio con arreglos: Bingo
  * 08/05/24
- * Autor: SG
+ * Autor: acmilo andres losada 
  */
 
 //Arreglos
