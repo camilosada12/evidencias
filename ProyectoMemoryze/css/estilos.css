@@ -1,0 +1,93 @@
+body{
+    background-image: url(fondo4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+.salida img{
+    width: 75px;
+    height: 75px;
+}
+.cerrar img{
+    width: 65px;
+    height: 65px;
+}
+
+p{
+  color: aliceblue;
+}
+.total{
+    float:left;
+    width: 1300px;
+    height: 90px;
+    border: rgb(255, 255, 255)  1px solid;
+}
+.letra p{
+   font-family: Jockey One;
+   color: white;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 28px;
+}
+.memoryze img{
+    margin-right: 70px;
+    margin-top: 16px;
+    width: 115px;
+    height: 105px;
+}
+button{
+   width: 220px;
+   margin-top: 10px;
+   position: relative;
+   top:115%;
+   left: 80%;
+   background-color: blueviolet !important;
+   font-family:  arial black  !important;
+}
+.buttonAmigos{
+    width: 220px;
+    margin-top: 10px;
+    position: relative;
+    top: 105%;
+    left: 30%;
+    font-family:  Jockey One  !important;
+    font-family:  arial black  !important;
+}
+.buttonTutorial{
+    width: 180px;
+    margin-top: 10px;
+    position: relative;
+    top: 105%;
+    left: 10%; 
+    text-align: center; 
+    font-family:  arial black  !important;
+}
+
+.Categoria img{
+    margin-top: 65px !important;
+    margin-left: 160px !important;
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+}
+
+.amigos img{
+    margin-top: 65px !important;
+    margin-left: 115px !important;
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+}
+.Tutorial img{
+    margin-top: 65px !important;
+    margin-left: 100px !important;
+    width: 135px;
+    height: 135px;
+    border-radius: 10px;
+}
+
+ 
