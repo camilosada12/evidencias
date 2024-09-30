@@ -1,0 +1,246 @@
+body{
+    background-image: url(../img/NuevosFondos1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.posicion{
+    text-align: center;
+
+}
+.salida img{
+    width: 60%;
+    height: 90%;
+}
+.cerrar img{
+    width: 50%;
+    height: 60%;
+}
+
+p{
+  color: aliceblue;
+  font-family: Jockey One;
+}
+.total{
+    float:left;
+    width: 1300px;
+    height: 90px;
+}
+.cambio{
+    height: 40%;
+}
+.letra p{
+   font-family: Jockey One;
+   color: white;
+   text-align: center;
+   padding-top: 5%;
+   font-size: 4vh;
+}
+.memoryze img{
+    width: 40%;
+    height: 75%;
+    text-align: center;
+}
+.memoryze{
+    align-items: center;
+    text-align: center;
+}
+button{
+    width: 60%;
+    background-color: rgba(181, 47, 215, 0.79) !important;
+    font-family:  arial black  !important;
+    text-align: center !important;
+    border-color: rgba(181, 47, 215, 0.79) !important;
+ }
+.buttonSolitario{
+    margin-left: 40%;
+ }
+
+.buttonAmigos{
+    margin-left: 20%;
+}
+
+
+
+.tutorial img{
+    width: 30%;
+    height: 17vh;
+    margin-left: 15%;
+    margin-top: -10%;
+}
+.amigos img{
+    width: 30%;
+    height: 17vh;
+    margin-left: 35%;
+    margin-top: -10%;
+    border-radius: 10px;
+}
+.solitario img{
+    width: 30%;
+    height: 17vh;
+    margin-left: 53%;
+    margin-top: -10%;
+    border-radius: 10px;
+}
+.capa{
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgba(0, 0, 0, 0.751);
+    height: 550px;
+    margin-top: 45px;
+    /* margin-bottom: 17px; */
+    padding: 30px;
+}
+.btn{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+.cerrar-sesion{
+    font-size: 100%;
+}
+@media (max-width:1198.89px){
+    button{
+        width: 80%;
+    }
+    .tutorial img{
+        width: 40%;
+        margin-left: 20%;
+        margin-top:  -15%;
+    }
+    .amigos img{
+        width: 40%;
+        margin-left: 40%;
+        margin-top:  -15%;
+    }
+    .solitario img{
+        width: 40%;
+        margin-left: 60%;
+        margin-top:  -15%;
+    }
+    .memoryze img{
+        width: 50%;
+        height: 75%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:991.11px){
+    button{
+        width: 70%;
+    }
+    .cerrar-sesion{
+        font-size: 68%;
+    }
+    .tutorial img{
+        width: 50%;
+        height: 12vh;
+        margin-left: 10%;
+        margin-top:  -20%;
+    }
+    .amigos img{
+        width: 50%;
+        height: 12vh;
+        margin-left: 30%;
+        margin-top:  -20%;
+    }
+    .solitario img{
+        width: 50%;
+        height: 12vh;
+        margin-left: 50%;
+        margin-top:  -20%;
+    }
+    .memoryze img{
+        margin-top: 10%;
+        width: 70%;
+        height: 20vh;
+        margin-left: 10%;
+    }
+    .salida img{
+        width: 100%;
+        height: 90%;
+    }
+    .cerrar img{
+        width: 80%;
+        height: 50%;
+    }
+}
+@media (max-width:767px){
+    button{
+        width: 80%;
+    }
+    .tutorial img{
+        width: 60%;
+        height: 12vh;
+        margin-left: 15%;
+        margin-top:  -30%;
+    }
+    .amigos img{
+        width: 60%;
+        height: 12vh;
+        margin-left: 35%;
+        margin-top:  -30%;
+    }
+    .solitario img{
+        width: 60%;
+        height: 12vh;
+        margin-left: 55%;
+        margin-top:  -30%;
+    }
+    .memoryze img{
+        margin-top: 10%;
+        width: 60%;
+        height: 20vh;
+        margin-left: 10%;
+    }
+    .salida img{
+        width: 7vh;
+        height: 90%;
+    }
+    .cerrar img{
+        width: 5vh;
+        height: 40%;
+    }
+    h6{
+        font-size: 80% !important;
+    }
+}
+@media (max-width:400px){
+    button{
+        width: 13vh;
+        margin-top: -70% !important;
+    }
+    .tutorial img{
+        margin-left: 15%;
+        margin-top: -140%;
+    }
+    .amigos img{
+        margin-left: 35%;
+        margin-top: -140%;
+    }
+    .solitario img{
+        margin-left: 55%;
+        margin-top: -140%;
+    }
+    .memoryze img{
+        margin-top: 15%;
+        width: 100%;
+        height: 17vh;
+    }
+    .salida img{
+        width: 8vh;
+        height: 90%;
+    }
+    .cerrar img{
+        width: 6vh;
+        height: 40%;
+    }
+    .letra p{
+        font-size: 4vh;
+     }
+     h6{
+        font-size: 70% !important;
+    }
+}

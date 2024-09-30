@@ -1,0 +1,289 @@
+body{
+    background-image: url(../img/NuevosFondos1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.posicion{
+    text-align: center;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+.flecha img{
+    width: 50%;
+    height: 100%;
+}
+.usuario img{
+    width: 50%;
+    height: 100%;
+}
+
+p{
+  color: aliceblue;
+  font-family: Jockey One;
+}
+.total{
+    float:left;
+    width: 1300px;
+    height: 90px;
+}
+.cambio{
+    height: 201px;
+}
+.letra p{
+   font-family: Jockey One;
+   color: white;
+   text-align: center;
+   padding-top: 30px;
+   font-size: 5vh;
+}
+.memoryze img{
+    margin-top: 5%;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+.memoryze{
+    text-align: center;
+}
+button{
+    font-family:  arial black  !important;
+    background-color: rgba(181, 47, 215, 0.79) !important;
+    text-align: center !important;
+    border-color: rgba(181, 47, 215, 0.79) !important;
+ }
+.buttonNumero{
+    margin-top: 12%;
+    margin-left: 25%;
+    width: 60%;
+ }
+
+.buttonLibre{
+    width: 25%;
+    font-family:  arial black  !important;
+    margin-top: 5%;
+    margin-left: 48%;
+}
+.buttonNuevoJuego{
+    margin-left: 15%;
+    margin-top: 12%;
+    font-family:  arial black  !important;
+    width: 60%;
+} 
+
+.Numeros {
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 50%;
+    height: 60%;
+}
+.nuevoJuego {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 50%;
+    height: 60%;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.capa{
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 550px;
+    /* margin-bottom: 17px; */
+    padding: 30px;
+}
+h6{
+    font-size: 100% !important;
+}
+@media (max-width:1199px){
+    .flecha img{
+        width: 60%;
+    }
+    .usuario img{
+        width: 60%;
+    }
+    .buttonNumero{
+        width: 70%;
+     }
+     .Numeros {
+        margin-left: 35%;
+    }
+}
+@media (max-width:991px){
+    .flecha img{
+        width: 90%;
+    }
+    .usuario img{
+        width: 90%;
+    }
+    .buttonNumero{
+        width: 90%;
+     }
+     .buttonLibre{
+        width: 40%;
+        margin-top: 5%;
+        margin-left: 42%;
+    }
+    .buttonNuevoJuego{
+        width: 90%;
+        margin-left: -10%;
+    } 
+     .Numeros {
+        margin-left: 38%;
+        width: 65%;
+        height: 60%;
+    }
+    .nuevoJuego {
+        width: 65%;
+        height: 60%;
+        margin-left: 3%;
+    }
+    .letra p{
+        font-size: 4vh;
+     }
+     .memoryze img{
+        margin-top: 25%;
+        width: 70%;
+        height: 80%;
+        margin-left: 10%;
+    }
+}
+@media (max-width:767px){
+    .flecha img{
+        width: 7vh;
+    }
+    .usuario img{
+        width: 7vh;
+    }
+    .buttonNumero{
+        margin-top: 30%
+     }
+     .buttonLibre{
+        margin-top: 15%;
+    }
+    .buttonNuevoJuego{
+        margin-top: 30%;
+        width: 90%;
+        margin-left: -10%;
+    } 
+     .Numeros {
+        margin-left: 38%;
+        width: 65%;
+        height: 60%;
+    }
+    .nuevoJuego {
+        width: 65%;
+        height: 60%;
+        margin-left: 3%;
+    }
+    .letra p{
+        font-size: 3.5vh;
+     }
+     .memoryze img{
+        margin-top: 45%;
+        width: 70%;
+        height: 80%;
+        margin-left: 10%;
+    }
+    h6{
+        font-size: 64% !important;
+        font-family:  arial black  !important;
+    }
+}
+@media (max-width:400px){
+    .flecha img{
+        width: 6vh;
+    }
+    .usuario img{
+        width: 6vh;
+        margin-left: -65%;
+    }
+    .buttonNumero{
+        margin-top: 30%;
+        width: 120%;
+        margin-left: -20%;
+     }
+     .buttonLibre{
+        margin-top: 5%;
+        width: 45%;
+    } 
+    .buttonNuevoJuego{
+        width: 120%;
+    } 
+     .Numeros {
+        margin-top: 10%;
+        margin-left: -5%;
+        width: 95%;
+        height: 60%;
+    }
+    .nuevoJuego {
+        margin-top: 10%;
+        width: 95%;
+        height: 60%;
+        margin-left: 3%;
+    }
+    .letra p{
+        font-size: 3vh;
+     }
+     .memoryze img{
+        margin-top: 65%;
+        width: 100%;
+        height: 80%;
+        margin-left: 10%;
+    }
+    h6{
+        font-size: 50% !important;
+        font-family:  arial black  !important;
+    }
+}
+@media (max-width:519px){
+
+    h6{
+        font-size: 50% !important;
+        font-family:  arial black  !important;
+    }
+    .buttonNumero{
+        width: 100%;
+     }
+     .buttonNuevoJuego{
+        width: 100%;
+    } 
+    .buttonLibre{
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:538px){
+
+    h6{
+        font-size: 60% !important;
+        font-family:  arial black  !important;
+    }
+}
+@media (max-width:468px){
+
+    h6{
+        font-size: 60% !important;
+        font-family:  arial black  !important;
+    }
+    .letra p{
+        font-size: 2.5vh;
+    }
+    .buttonLibre{
+        margin-top: 0%;
+        width: 35%;
+    } 
+}
+
+
+
+
+
