@@ -24,6 +24,9 @@ $salarioPersona->setDiasTrabajados(20);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
 </head>
 <body>
     <?php
