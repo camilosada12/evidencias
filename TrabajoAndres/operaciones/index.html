@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operaciones</title>
+
+  <script src="js/operaciones.js"></script>
+  <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+  <div class="container ">
+        <form onsubmit="realizarTodasOpereciones(); return false;">
+
+            <label for="txtNumUno" class="form-label">Digite el primer número:</label>
+            <input type="number" class="form-control" id="txtNumUno" name="txtNumUno" required>
+
+            <label for="txtNumDos" class="form-label">Digite el segundo número:</label>
+            <input type="number" class="form-control" id="txtNumDos" name="txtNumDos" required>
+
+            <button class="btn btn-primary" type="submit">
+              Enviar
+            </button>
+        </form>
+
+      <div class="col-4 respuesta">
+        <div id="saludo">
+          <p id="resultadoSuma"></p>
+          <p id="resultadoResta"></p>
+          <p id="resultadoMultiplicacion"></p>
+          <p id="resultadoDivision"></p>
+        </div>
+      </div>
+  </div>
+
+</body>
+</html>
